@@ -1,0 +1,282 @@
+{
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.suggestSelection": "first",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  // ICONOS DEL TEMA MONOKAI
+  // "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "liveServer.settings.donotVerifyTags": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.linkedEditing": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  // terminal Standar font MesloLGS NF
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 18,
+  // "terminal.integrated.fontWeight": "bold",
+  // Fuente Empieza Conf (Victor Mono, monospace)
+  "editor.fontSize": 18,
+
+  // Como puedo hacer para que la ventana donde tengo al ia el texto sea mas grande?
+
+  // Wrap on
+  "editor.wordWrap": "on",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.cursorBlinking": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.fontLigatures": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["punctuation.definition.comment", "comment"],
+        "settings": {
+          // "foreground": "#73ec81",
+          "fontStyle": "italic , thin"
+        }
+      }
+    ]
+  },
+  "redhat.telemetry.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // Agregar terminal bash de manera predeterminada
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // TypeScript
+  // Las sugerencias de inserción de nombres de parámetros
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  // Las sugerencias de incrustación de tipos de variables
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // Las sugerencias de incrustación de tipo de propiedad
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // Las sugerencias de tipo de parámetro
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // Las sugerencias de incrustación de tipos de funciones
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // Las sugerencias de incrustación de tipos de literales
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+
+  // Javascript
+  //Las sugerencias de inserción de nombres de parámetros
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // Las sugerencias de incrustación de tipos de variables
+  "javascript.inlayHints.variableTypes.enabled": true,
+  // Las sugerencias de incrustación de tipo de propiedad
+  // "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // Las sugerencias de tipo de parámetro
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  // Las sugerencias de incrustación de tipo de retorno
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.suggest.objectLiteralMethodSnippets.enabled": false,
+  "javascript.suggest.objectLiteralMethodSnippets.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "window.customTitleBarVisibility": "auto",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "explorer.confirmDelete": false,
+  "editor.fontWeight": "normal",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  // Configuraciones extras de vim mapping:
+  // Configuraciones extras de vim mapping:
+  // Tecla líder como barra espaciadora
+  "vim.leader": "<space>",
+  // Salir del modo insert con jk o kj
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-n>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-p>"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-o>", "l"]
+    }
+  ],
+  // Atajos personalizados
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // Guardar con <leader>w
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    // Cerrar con <leader>q
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    // Navegación entre divisiones
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    // Duplicar línea con Shift + D
+    {
+      "before": ["D"],
+      "commands": ["editor.action.copyLinesDownAction"]
+    },
+    // Comentar línea con <leader>/
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    // Para ir directamente al archivo
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    // Cambiar entre archivos abiertos
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    // Reabrir el archivo cerrado con <leader>u
+    {
+      "before": ["<leader>", "u"],
+      "commands": ["workbench.action.reopenClosedEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    // Divir la linea donde estas (hacer salto en medio de la linea)
+    {
+      "before": ["<leader>", "Enter"],
+      "after": ["i", "<CR>", "<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    }
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  "vim.enableSurround": true,
+  "vim.easymotion": true,
+  "workbench.editor.enablePreview": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "explorer.confirmPasteNative": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorCustomizations": {
+    "[Vira*]": {
+      "statusBar.debuggingBackground": "#80CBC433",
+      "statusBar.debuggingForeground": "#80CBC4",
+      "toolbar.activeBackground": "#80CBC426",
+      "button.background": "#80CBC4",
+      "button.hoverBackground": "#80CBC4cc",
+      "extensionButton.separator": "#80CBC433",
+      "extensionButton.background": "#80CBC414",
+      "extensionButton.foreground": "#80CBC4",
+      "extensionButton.hoverBackground": "#80CBC433",
+      "extensionButton.prominentForeground": "#80CBC4",
+      "extensionButton.prominentBackground": "#80CBC414",
+      "extensionButton.prominentHoverBackground": "#80CBC433",
+      "activityBarBadge.background": "#80CBC4",
+      "activityBar.activeBorder": "#80CBC4",
+      "activityBarTop.activeBorder": "#80CBC4",
+      "list.inactiveSelectionIconForeground": "#80CBC4",
+      "list.activeSelectionForeground": "#80CBC4",
+      "list.inactiveSelectionForeground": "#80CBC4",
+      "list.highlightForeground": "#80CBC4",
+      "sash.hoverBorder": "#80CBC480",
+      "list.activeSelectionIconForeground": "#80CBC4",
+      "scrollbarSlider.activeBackground": "#80CBC480",
+      "editorSuggestWidget.highlightForeground": "#80CBC4",
+      "textLink.foreground": "#80CBC4",
+      "progressBar.background": "#80CBC4",
+      "pickerGroup.foreground": "#80CBC4",
+      "tab.activeBorder": "#80CBC4",
+      "tab.activeBorderTop": "#80CBC400",
+      "tab.unfocusedActiveBorder": "#80CBC4",
+      "tab.unfocusedActiveBorderTop": "#80CBC400",
+      "tab.activeModifiedBorder": "#80CBC400",
+      "notificationLink.foreground": "#80CBC4",
+      "editorWidget.resizeBorder": "#80CBC4",
+      "editorWidget.border": "#80CBC4",
+      "settings.modifiedItemIndicator": "#80CBC4",
+      "panelTitle.activeBorder": "#80CBC4",
+      "breadcrumb.activeSelectionForeground": "#80CBC4",
+      "menu.selectionForeground": "#80CBC4",
+      "menubar.selectionForeground": "#80CBC4",
+      "editor.findMatchBorder": "#80CBC4",
+      "selection.background": "#80CBC440",
+      "statusBarItem.remoteBackground": "#80CBC414",
+      "statusBarItem.remoteHoverBackground": "#80CBC4",
+      "statusBarItem.remoteForeground": "#80CBC4",
+      "notebook.inactiveFocusedCellBorder": "#80CBC480",
+      "commandCenter.activeBorder": "#80CBC480",
+      "chat.slashCommandForeground": "#80CBC4",
+      "chat.avatarForeground": "#80CBC4",
+      "activityBarBadge.foreground": "#000000",
+      "button.foreground": "#000000",
+      "statusBarItem.remoteHoverForeground": "#000000"
+    }
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "claudeCode.preferredLocation": "panel"
+  // 'Cascadia Code', Consolas, 'Courier New', monospace
+}
